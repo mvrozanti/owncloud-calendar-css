@@ -642,12 +642,14 @@ html.ie8 .column-mtime .selectedActions {
 #fileList tr:focus a.action.disabled.action-download:focus,
 #fileList tr:hover a.action:hover,
 #fileList tr:focus a.action:focus,
+
 #fileList .name:focus a.action:focus {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	filter: alpha(opacity=70);
 	opacity: 7;
 	display:inline;
 }
+
 #fileList tr a.action.disabled {
 	background: none;
 }
@@ -741,11 +743,11 @@ table.dragshadow td.size {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #fff;
+	background-color: #444;
 	background-repeat: no-repeat no-repeat;
 	background-position: 50%;
-	opacity: 0.7;
-	filter: alpha(opacity=70);
+	opacity: 0.1;
+	filter: alpha(opacity=0.1);
 	transition: opacity 100ms;
 	-moz-transition: opacity 100ms;
 	-o-transition: opacity 100ms;
